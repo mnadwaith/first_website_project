@@ -1,0 +1,58 @@
+/* Header CSS */
+
+#header{
+    text-align: center;
+    background-color: rebeccapurple;
+}
+
+#title_name{
+    color: red;
+}
+
+
+/* Body CSS */
+
+#search{
+    height: 450px;
+    text-align: center;
+    background-image: url(/images/sl_121019_25870_93.jpg);
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+
+#anime_title{
+    color:#893164;
+    text-align: center;
+    font-size: 300px;
+    margin: 0;
+}
+
+#language{
+    width: 25%;
+    height: 45px;
+}
+
+#genre{
+    width: 25%;
+    height: 45px;
+}
+
+option{
+    text-align: center;
+}
+
+/* Footer CSS */
+
+#footer{
+    text-align: center;
+    background-color: aqua;
+}
+
+.footer_element{
+    display:inline-block;
+}
+
+#contact{
+    padding-right: 420px;
+}
+
