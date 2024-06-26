@@ -1,12 +1,21 @@
 /* Header CSS */
 
 #header{
-    text-align: center;
     background-color: rebeccapurple;
+    text-align: center;
 }
 
 #title_name{
     color: red;
+    width: 360px;
+    display: inline;
+    font-size: 45px;
+}
+
+.register{
+    position: relative;
+    left: 610px;
+    bottom: 13px;
 }
 
 
@@ -23,18 +32,68 @@
 #anime_title{
     color:#893164;
     text-align: center;
-    font-size: 300px;
-    margin: 0;
+    font-size: 250px;
+    margin-left: 200px;
+    display: flex;
+    gap: 10px;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+.anime_letter{
+    display: inline-block;
+    animation: wave_effect 1s ease-in-out infinite forwards; 
+}
+
+.anime_letter:nth-child(1){
+    animation-delay: 0s;
+}
+
+.anime_letter:nth-child(2){
+    animation-delay: 0.2s;
+}
+
+.anime_letter:nth-child(3){
+    animation-delay: 0.4s;
+}
+
+.anime_letter:nth-child(4){
+    animation-delay: 0.6s;
+}
+
+.anime_letter:nth-child(5){
+    animation-delay: 0.8s;
+}
+
+.anime_letter:nth-child(6){
+    animation-delay: 1.0s;
+}
+
+.anime_letter:nth-child(7){
+    animation-delay: 1.2s;
+}
+
+@keyframes wave_effect {
+    0%, 100%{
+        transform: translateY(0em);
+    }
+
+    50%{
+        transform: translateY(-0.2em);
+    }
 }
 
 #language{
     width: 25%;
     height: 45px;
+    text-align: center;
+    font-size: large;
 }
 
 #genre{
     width: 25%;
     height: 45px;
+    text-align: center;
+    font-size: large;
 }
 
 option{
@@ -50,6 +109,11 @@ option{
 
 .footer_element{
     display:inline-block;
+}
+
+.footer_element>p>a{
+    text-decoration: none;
+    color: black;
 }
 
 #contact{
