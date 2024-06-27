@@ -1,7 +1,13 @@
+body{
+    margin: auto;
+    background-color: #090909;
+    color: white;
+}
+
 /* Header CSS */
 
 #header{
-    background-color: rebeccapurple;
+    background-color: #131416;
     text-align: center;
 }
 
