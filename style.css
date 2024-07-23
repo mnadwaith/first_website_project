@@ -93,14 +93,6 @@ body {
     }
 }
 
-#language, #genre {
-    width: 100%;
-    max-width: 300px;
-    height: 45px;
-    text-align: center;
-    font-size: large;
-    margin: 10px auto;
-}
 
 /*  Recommendation CSS */
 .recommendation {
@@ -158,12 +150,12 @@ body {
     }
 
     .register-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width:576px) {
     #title_name {
         font-size: 25px;
     }
@@ -173,7 +165,7 @@ body {
     }
 
     .register-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
